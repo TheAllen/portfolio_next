@@ -25,7 +25,7 @@ const Hero = () => {
         autoPlay
         muted
         loop
-        className='absolute left-0 z-[1] w-full h-full object-cover'
+        className='absolute left-0 z-[1] w-full object-cover'
         >
             <source src='/cabin.webm' type='video/webm'/>
         </video>
