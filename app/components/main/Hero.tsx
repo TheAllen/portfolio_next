@@ -7,13 +7,19 @@ const Hero = () => {
 
     const videoRef = useRef(null);
     const videoStyles = {
-        filter: 'grayscale(70%)'
+        filter: 'grayscale(70%) contrast(40%)',
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        objectFit: 'cover', // Ensure it covers the full viewport
+        zIndex: -1 // Ensure it stays behind other content
     };
 
     useEffect(() => {
         if(videoRef.current) {
             videoRef.current.playbackRate = 1;
-            videoRef.current.style.filter = 'contrast(40%)';
         }
     });
     
