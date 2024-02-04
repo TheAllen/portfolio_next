@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .black-and-white {
-  filter: grayscale(10%)
+  filter: grayscale(100%)
 }
 
 .cursive {

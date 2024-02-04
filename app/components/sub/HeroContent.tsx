@@ -28,14 +28,14 @@ const HeroContent = () => {
             >
               <span>
                 Providing
-                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500'> the best </span>
-                project experience
+                <span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-100 to-cyan-500'> the best </span>
+                project ex<span className='text-transparent bg-clip-text bg-gradient-to-r from-purple-100 to-cyan-500'>perience</span>
               </span>
             </motion.div>
 
             <motion.p
               variants={slideInFromLeft(0.8)}
-              className='text-lg text-gray-400 my-5 max-w-[600px]'
+              className='text-lg text-blue-200 my-5 max-w-[600px]'
             >
               I&apos;m a Software Engineer with experience in backend development. Check out my projects and skills.
             </motion.p>
@@ -48,14 +48,15 @@ const HeroContent = () => {
         </div>
 
         <motion.div
+          style={{ width: '150%', height: '750px', position: 'relative' }}
           variants={slideInFromRight(0.8)}
           className='w-full h-full flex justify-center items-center'
         >
           <Image 
-            src='/mainIconsdark.svg'
+            src='/mainIconsColor2.svg'
             alt='work icons'
-            height={750}
-            width={750}
+            layout='fill'
+            objectFit="cover"
           />
         </motion.div>
 
