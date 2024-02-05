@@ -35,9 +35,11 @@ const HeroContent = () => {
 
             <motion.p
               variants={slideInFromLeft(0.8)}
-              className='text-lg text-blue-200 my-5 max-w-[600px]'
+              className='text-lg text-blue-200 my-5 max-w-[600px] font-semibold'
             >
-              I&apos;m a Software Engineer with experience in backend development. Check out my projects and skills.
+              I&apos;m Hello, my name is Allen. I&apos;m a Motivated engineer who enjoys building products.
+              I&apos;m comfortable with backend and interested in building scalable backend services.
+              I&apos;m looking for a role where I can collaborate with a team to solve challenging problems!
             </motion.p>
             <motion.a
             variants={slideInFromLeft(1)}

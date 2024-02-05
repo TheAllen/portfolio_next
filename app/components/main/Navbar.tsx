@@ -32,6 +32,9 @@ const Navbar = () => {
                     <a href="#projects" className="cursor-pointer">
                         Projects
                     </a>
+                    <a href="#projects" className="cursor-pointer">
+                        Travels
+                    </a>
                 </div>
             </div>
 
