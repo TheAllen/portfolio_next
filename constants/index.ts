@@ -1,13 +1,7 @@
-export const Skill_data = [
+export const Programming_languages_data = [
   {
     skill_name: "Java",
     Image: "/java.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    Image: "/ts.png",
     width: 80,
     height: 80,
   },
@@ -18,14 +12,14 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "NestJs",
-    Image: "/Nest.png",
+    skill_name: "TypeScript",
+    Image: "/ts.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "NextJs",
-    Image: "/next.png",
+    skill_name: "JavaScript",
+    Image: "/javascript.png",
     width: 80,
     height: 80,
   },
@@ -35,6 +29,12 @@ export const Skill_data = [
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "C++",
+    Image: "/cpp.png",
+    width: 80,
+    height: 80,
+  }
 ];
 
 export const Socials = [
@@ -53,6 +53,12 @@ export const Socials = [
 ];
 
 export const Frontend_skill = [
+  {
+    skill_name: "NextJs",
+    Image: "/next.png",
+    width: 80,
+    height: 80,
+  },
   {
     skill_name: "Html 5",
     Image: "/html.png",
@@ -117,53 +123,42 @@ export const Frontend_skill = [
 
 export const Backend_skill = [
   {
-    skill_name: "Node js",
+    skill_name: "Spring Boot",
+    Image: "/spring_boot.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "Node Js",
     Image: "/node-js.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Express js",
+    skill_name: "NestJs",
+    Image: "/Nest.png",
+    width: 80,
+    height: 80,
+  },
+  {
+    skill_name: "ExpressJs",
     Image: "/express.png",
     width: 80,
     height: 80,
   },
   {
-    skill_name: "Mongo db",
-    Image: "/mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Fire base",
-    Image: "/Firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "Postger SQL",
-    Image: "/postger.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "My SQL",
-    Image: "/mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    Image: "/prisma.webp",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    Image: "/graphql.png",
+    skill_name: "Actix Web",
+    Image: "/actix.png",
     width: 80,
     height: 80,
   },
+  {
+    skill_name: "Postgres",
+    Image: "/postgre.png",
+    width: 80,
+    height: 80,
+  },
+
 ];
 
 export const Full_stack = [
