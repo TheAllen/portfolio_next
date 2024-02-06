@@ -65,6 +65,11 @@
   display: none;
 }
 
+.Project-card {
+  background-color: rgba(65, 70, 91, 0.7);
+  border-radius: 30px;
+}
+
 html {
   scroll-behavior: smooth;
 }
