@@ -29,7 +29,7 @@ const ProjectCard = ({src, title, description, techStack, sourceCode}: Props) =>
           />
         </div>
 
-        <div className="relative p-6">
+        <div className="relative p-6 space-y-1.5">
             <h1 className="text-2xl font-semibold text-white">{title}</h1>
             <motion.div
             variants={slideInFromTop}
