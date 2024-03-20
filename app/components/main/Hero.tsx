@@ -33,7 +33,7 @@ const Hero = () => {
         loop
         className='absolute left-0 z-[1] w-full object-cover'
         >
-            <source src='/cabin.webm' type='video/webm'/>
+            <source src='/autumn.webm' type='video/webm'/>
         </video>
         <HeroContent />
     </div>

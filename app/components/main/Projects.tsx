@@ -22,6 +22,14 @@ const Projects = () => {
           <div className='flex flex-wrap -mx-2 items-stretch'>
 
             <ProjectCard
+              src=""
+              title="AI Coding Assistant"
+              description="An program that acts as a team - comprising of Project Manager, Solutions Architect, Backend Engineer, Frontend Engineer agents to build a website for you! The languags comes in Rust, Go, or Python"
+              techStack="Rust, Tokio, Actix | Go, Gin | Python, Flask"
+              sourceCode="https://github.com/TheAllen/autumn"
+            />
+
+            <ProjectCard
               src="https://i.postimg.cc/rsjZGWgR/Lyon.png"
               title="City Visualization 3D"
               description="Generate beautiful 3D models of famous Cities around the world! Using Esri ArcGIS api tools to create amazing 3D visualizations."
